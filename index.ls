@@ -11,7 +11,7 @@ recurse-dir = (root) ->
 
 list = recurse-dir(\img)
 
-pat = /(\d+)\/(\d+)\/(\d+).png/g
+pat = /(\d+)\/(\d+)\/(\d+).png/
 bitvector = {}
 for file in list
   ret = pat.exec file

@@ -14,4 +14,5 @@ check = function(bv, z, x, y){
   v = 1 << 31 - dx % 32;
   return yv[2][o] & v ? true : false;
 };
+if(!module) module = {};
 module.exports = check;
