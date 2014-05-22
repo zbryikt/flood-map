@@ -7,4 +7,5 @@ check = (bv, z, x, y) ->
   v = 1 .<<. (31 - (dx % 32))
   return if (yv.2[o] .&. v) => true else false
 
+module ?= {}
 module.exports = check
